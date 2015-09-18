@@ -1,10 +1,21 @@
 # 分布配置工具包
 
-<h1>Config Toolkit V3.1.0 RELEASED</h1>
+<h1>Config Toolkit V3.1.2 RELEASED</h1>
 
 ### 在大型集群和分布式应用中，配置不宜分散到节点中，应该集中管理.
 
 <hr>
+
+### 贡献者
+
+* 王宇轩 5142035@qq.com
+* 沈理 shen-li@163.com
+* 刘卫东 daxueshi07@aliyun.com
+* 梁承祝 12459385@qq.com
+* 马宝山 mabaoshan@dangdang.com
+
+### 社区
+* QQ群: 457997852
 
 ### 依赖
 * JAVA 7+
@@ -205,5 +216,7 @@ Config Web 提供界面方便管理zookeeper中的配置数据.
 > `# a9993e364706816aba3e25717850c26c9cd0d89d`
 > 
 > `echo "set /aaa/bbb a9993e364706816aba3e25717850c26c9cd0d89d" |./zkCli.sh -server localhost:2181`
+
+Try It: [Playground](http://config-toolkit.mabaoshan.com:8010 "Playground") /projectx/modulex 123
 
 ![Config Web Snapshot](http://crnlmchina.github.io/config-web2.jpg)
